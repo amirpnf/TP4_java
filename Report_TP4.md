@@ -15,18 +15,18 @@ public class Main {
 
 7. A faire à la maison pour le compte rendu:
 
-(1) Que fait sysout + Ctrl + Space dans un main ?
-(2) Que fait toStr + Ctrl + Space dans une classe ?
-(3) Définir un champs foo de type int, que fait get + Ctrl + Space, et set + Ctrl + Space .
-(4) Dans le menu Source, comment générer un constructeur initialisant le champ foo ?
-(5) Sélectionner le nom de la classe puis Alt + Shift + R, qu'obtient-on ? Même question avec le champ foo .
-(6) Écrire a = 2 + 3 + 4, puis sélectionner 2 + 3 puis Alt + Shift + L .
-(7) Écrire new Integer(2), en gardant le curseur après `)`, appuyer sur Ctrl + Shift + 1, que se passe-t-il ?
-(8) Déclarer une variable s de type String et cliquer sur String en maintenant la touche Ctrl . Que se passe-t-il ?
-(9) Dans la méthode toString(), que fait un Ctrl + Clic sur super.toString() ?
-(10) Sélectionner le champs foo, puis Ctrl + Shift + G. Que se passe-t-il ?
-(11) À quoi sert Ctrl + Shift + O ?
-(12) À quoi sert Ctrl + Shift + C ?
+**(1)** Que fait sysout + Ctrl + Space dans un main ?  
+**(2)** Que fait toStr + Ctrl + Space dans une classe ?  
+**(3)** Définir un champs foo de type int, que fait get + Ctrl + Space, et set + Ctrl + Space .  
+**(4)** Dans le menu Source, comment générer un constructeur initialisant le champ foo ?   
+**(5)** Sélectionner le nom de la classe puis Alt + Shift + R, qu'obtient-on ? Même question avec le champ foo .  
+**(6)** Écrire a = 2 + 3 + 4, puis sélectionner 2 + 3 puis Alt + Shift + L .  
+**(7)** Écrire new Integer(2), en gardant le curseur après `)`, appuyer sur Ctrl + Shift + 1, que se passe-t-il ?  
+**(8)** Déclarer une variable s de type String et cliquer sur String en maintenant la touche Ctrl . Que se passe-t-il ?  
+**(9)** Dans la méthode toString(), que fait un Ctrl + Clic sur super.toString() ?  
+**(10)** Sélectionner le champs foo, puis Ctrl + Shift + G. Que se passe-t-il ?  
+**(11)** À quoi sert Ctrl + Shift + O ?  
+**(12)** À quoi sert Ctrl + Shift + C ?  
 
 
 **Answer** : Here are the answers to Exercise 7:
@@ -139,7 +139,7 @@ Utiliser la commande javap pour vérifier !
 ```     
 
 **Answer** : The `for-each` loop is transformed into a `while` on an `Iterator` object by the compilator.
-This fact is deduces, by observing this line in the bytecode :
+This fact is deduced, by observing these lines in the bytecode :
 ```bash
 4: invokevirtual #26                 // Method java/util/ArrayList.iterator:()Ljava/util/Iterator;
 9: invokeinterface #30,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
